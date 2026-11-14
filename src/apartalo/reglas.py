@@ -1,9 +1,15 @@
-"""Reglas de negocio de mi variante (Ejercicio 6).
+"""Reglas de negocio de Variante 5: Salas de estudio Sala Común."""
 
-Aquí van las funciones de R1 y R2. Escríbelas con TDD:
-primero una prueba que falle (ROJO), luego el código mínimo para que pase (VERDE),
-y después mejora el código sin romper las pruebas (REFACTOR).
 
-Si una entrada no tiene sentido (horas negativas, un servicio que no existe, etc.),
-la función debe lanzar ValueError.
-"""
+def calcular_total_reserva(horas: int, es_estudiante: bool = False) -> float:
+    """Calcula el total de la reserva aplicando R1 (tarifa, hora gratis y descuento)."""
+    if not isinstance(horas, int) or isinstance(horas, bool) or horas < 1:
+        raise ValueError("La reserva debe ser de al menos 1 hora entera.")
+
+    horas_cobradas = horas - 1 if horas >= 4 else horas
+    subtotal = horas_cobradas * 70.0
+
+    if es_estudiante:
+        subtotal = subtotal * 0.60
+
+    return round(subtotal, 2)
