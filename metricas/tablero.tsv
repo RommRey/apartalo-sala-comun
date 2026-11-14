@@ -1,0 +1,20 @@
+Title	URL	Status	Prioridad	Puntos	Sprint	Inicio	Terminado
+HU-01: Reservar sala por bloques de 1 hora	https://github.com/RommRey/apartalo-sala-comun/issues/1	Liberación	Must	3	Sprint 1	Oct 27, 2026	Oct 29, 2026
+HU-02: Calcular costo total de reserva con tarifa base de $70 MXN/hora	https://github.com/RommRey/apartalo-sala-comun/issues/2	Liberación	Must	2	Sprint 1	Oct 30, 2026	Oct 31, 2026
+HU-03: Aplicar promoción de 1 hora gratis al reservar 4 horas o más seguidas	https://github.com/RommRey/apartalo-sala-comun/issues/3	Liberación	Must	3	Sprint 1	Nov 1, 2026	Nov 3, 2026
+HU-04: Aplicar 40 % de descuento a estudiantes con credencial vigente	https://github.com/RommRey/apartalo-sala-comun/issues/4	Liberación	Must	3	Sprint 1	Nov 3, 2026	Nov 5, 2026
+HU-05: Calcular reembolso del 100 % por cancelación con 6 horas o más de anticipación	https://github.com/RommRey/apartalo-sala-comun/issues/5	Liberación	Must	3	Sprint 1	Nov 5, 2026	Nov 7, 2026
+HU-06: Calcular reembolso del 50 % por cancelación entre 1 y menos de 6 horas antes	https://github.com/RommRey/apartalo-sala-comun/issues/6	Liberación	Must	3	Sprint 1	Nov 7, 2026	Nov 8, 2026
+HU-07: Retener el 100 % (sin reembolso) al cancelar con menos de 1 hora de anticipación	https://github.com/RommRey/apartalo-sala-comun/issues/7	Liberación	Must	2	Sprint 1	Nov 8, 2026	Nov 9, 2026
+HU-08: Consultar disponibilidad de las 4 salas por fecha y horario	https://github.com/RommRey/apartalo-sala-comun/issues/8	Liberación	Must	2	Sprint 1	Nov 8, 2026	Nov 9, 2026
+HU-09: Restringir reservas a máximo 4 horas seguidas por persona al día	https://github.com/RommRey/apartalo-sala-comun/issues/9	Historias	Should	3			
+HU-10: Validar cupo máximo de 6 personas por sala al reservar	https://github.com/RommRey/apartalo-sala-comun/issues/10	Historias	Should	2			
+HU-11: Visualizar listado diario de reservas activas, canceladas y reembolsos	https://github.com/RommRey/apartalo-sala-comun/issues/11	Historias	Should	3			
+HU-12: Registrar matrícula y fecha de vigencia de credencial universitaria	https://github.com/RommRey/apartalo-sala-comun/issues/12	Historias	Could	3			
+HU-13: Enviar recordatorio de reserva 2 horas antes del inicio	https://github.com/RommRey/apartalo-sala-comun/issues/13	Historias	Could	3			
+EPICA-01: Apertura automática de puertas de salas mediante código QR	https://github.com/RommRey/apartalo-sala-comun/issues/14	Historias	Won't	13			
+EPICA-02: Chat interno en la aplicación para organización de estudiantes	https://github.com/RommRey/apartalo-sala-comun/issues/15	Historias	Won't	13			
+HU-14: Gestión integral de cobros, promociones y descuentos en reserva	https://github.com/RommRey/apartalo-sala-comun/issues/16						
+RNF-01: Desempeño del motor de tarifas y cancelaciones en hora pico	https://github.com/RommRey/apartalo-sala-comun/issues/17						
+RNF-02: Robustez ante entradas inválidas en cálculos financieros	https://github.com/RommRey/apartalo-sala-comun/issues/18						
+RNF-03: Mantenibilidad y complejidad ciclomática del código	https://github.com/RommRey/apartalo-sala-comun/issues/19						
