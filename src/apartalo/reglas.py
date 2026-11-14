@@ -13,3 +13,18 @@ def calcular_total_reserva(horas: int, es_estudiante: bool = False) -> float:
         subtotal = subtotal * 0.60
 
     return round(subtotal, 2)
+
+
+def calcular_reembolso(monto_pagado: float, horas_anticipacion: float) -> float:
+    """Calcula el monto de reembolso según horas de anticipación (R2)."""
+    if monto_pagado < 0 or horas_anticipacion < 0:
+        raise ValueError("El monto pagado y las horas de anticipación no pueden ser negativos.")
+
+    if horas_anticipacion >= 6.0:
+        porcentaje = 1.0
+    elif horas_anticipacion >= 1.0:
+        porcentaje = 0.5
+    else:
+        porcentaje = 0.0
+
+    return round(monto_pagado * porcentaje, 2)
