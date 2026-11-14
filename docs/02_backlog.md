@@ -15,8 +15,8 @@
 
 | Beneficio que revisé | Historia que encontré | Issue |
 | :--- | :--- | :--- |
-| Evitar llegar a *Sala Común* y encontrar todas las salas ocupadas en semana de exámenes. | **Para poder** asegurar un espacio antes de trasladarme en época de exámenes, **como** Estudiante, **quiero** consultar la disponibilidad en tiempo real de las 4 salas por fecha y hora. | # |
-| Recuperar el espacio y tener visibilidad financiera cuando un usuario cancela o no llega. | **Para poder** controlar la ocupación real y los reembolsos emitidos en el día, **como** Dueño (Rubén), **quiero** consultar un listado de reservas activas, canceladas y reembolsos aplicados. | # |
+| Evitar llegar a *Sala Común* y encontrar todas las salas ocupadas en semana de exámenes. | **Para poder** asegurar un espacio antes de trasladarme en época de exámenes, **como** Estudiante, **quiero** consultar la disponibilidad en tiempo real de las 4 salas por fecha y hora. | #HU-08 |
+| Recuperar el espacio y tener visibilidad financiera cuando un usuario cancela o no llega. | **Para poder** controlar la ocupación real y los reembolsos emitidos en el día, **como** Dueño (Rubén), **quiero** consultar un listado de reservas activas, canceladas y reembolsos aplicados. | #HU-11 |
 
 **¿Cómo me ayudó ordenar por beneficio?**
 Al enfocarnos primero en el valor real para el usuario (no perder el traslado en exámenes o no perder ingresos por salas vacías), descubrimos funciones operativas indispensables de consulta y monitoreo que no estaban explícitas en las reglas de cálculo R1, R2 y R3[cite: 9, 10].
